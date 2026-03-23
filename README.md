@@ -12,8 +12,20 @@
 rate(node_cpu_seconds_total{mode="idle"}[5m])*100  
 ```  
 Создал панель для отображения Средней загрузки CPU  за 1,5,15 минут  
+```
+node_load1  
+node_load5  
+node_load15  
+```  
 Создал панель для отображения использования памяти  
+```
+node_memory_MemFree_bytes  
+```  
 Создал панель для отображения свободного пространства на файловой системе /  
 ```  
 node_filesystem_free_bytes{mountpoint='/'}  
 ```
+Вид дашборда:  
+![panels](panels.jpg)  
+
+### Task 3 ###  
