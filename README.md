@@ -29,3 +29,6 @@ node_filesystem_free_bytes{mountpoint='/'}
 ![panels](panels.jpg)  
 
 ### Task 3 ###  
+Добавил алерты с такими порогами, чтобы они могли быть видны на графиках.  
+![alerts](alerts.jpg)  
+### Task 4 ###  
